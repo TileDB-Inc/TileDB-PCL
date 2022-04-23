@@ -1,7 +1,5 @@
 
 #include "../include/CloudBuilder.hpp"
-#include <pcl/point_cloud.h>
-#include <pcl/point_types.h>
 
 
 void CloudBuilder::build(DomainIterable& dom, pcl::PointCloud<pcl::PointXYZ>& cloud)
